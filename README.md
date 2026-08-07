@@ -1,16 +1,17 @@
 <a id="readme-top"></a>
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
 <div align="center">
-  <h1>Windows Theme Autochanger</h1>
-  <p>Dark mode auto-changer for Windows 11 at night — switch between Light and Dark themes on a schedule.</p>
-  <p>
+  <a href="https://github.com/AMDphreak/Windows-Theme-Autochanger/graphs/contributors"><img src="https://img.shields.io/github/contributors/AMDphreak/Windows-Theme-Autochanger.svg?style=for-the-badge" alt="Contributors"></a>
+  <a href="https://github.com/AMDphreak/Windows-Theme-Autochanger/network/members"><img src="https://img.shields.io/github/forks/AMDphreak/Windows-Theme-Autochanger.svg?style=for-the-badge" alt="Forks"></a>
+  <a href="https://github.com/AMDphreak/Windows-Theme-Autochanger/stargazers"><img src="https://img.shields.io/github/stars/AMDphreak/Windows-Theme-Autochanger.svg?style=for-the-badge" alt="Stargazers"></a>
+  <a href="https://github.com/AMDphreak/Windows-Theme-Autochanger/issues"><img src="https://img.shields.io/github/issues/AMDphreak/Windows-Theme-Autochanger.svg?style=for-the-badge" alt="Issues"></a>
+
+  <h3 align="center">Windows Theme Autochanger</h3>
+  <p align="center">
+    Dark mode auto-changer for Windows 11 at night — switch between Light and Dark themes on a schedule.
+    <br />
+    <br />
     <a href="https://github.com/AMDphreak/Windows-Theme-Autochanger/issues">Report Bug</a>
-    ·
+    &middot;
     <a href="https://github.com/AMDphreak/Windows-Theme-Autochanger/issues">Request Feature</a>
   </p>
 </div>
@@ -18,10 +19,14 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#built-with">Built With</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -33,6 +38,14 @@ Windows Theme Autochanger automatically sets your Windows Theme to a pre-defined
 
 The app runs in the background as a service and has an app icon that runs in the System Tray. You can enable or disable the service from the app or System Tray icon.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+* **Runtime** — [![Go][Go.dev]][Go-url] — service and tray application
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Getting Started
 
 Clone the repository and build with Go:
@@ -43,34 +56,38 @@ cd Windows-Theme-Autochanger
 go build ./...
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Usage
 
 Run the built binary or install as a Windows service. Configure light/dark schedule and whether to change wallpaper or window chrome only from the system tray UI.
 
-## Built With
-
-* [Go](https://go.dev/) — service and tray application
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contributing
 
 Contributions, issues, and feature requests are welcome. Open an issue or pull request on GitHub.
 
+### Top contributors
+
+<a href="https://github.com/AMDphreak/Windows-Theme-Autochanger/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=AMDphreak/Windows-Theme-Autochanger" alt="contributors" />
+</a>
+
+For per-person profile links, prefer [all-contributors](https://allcontributors.org/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Contact
 
 Ryan Johnson — [@amdphreak](https://twitter.com/amdphreak)
 
-Project Link: https://github.com/AMDphreak/Windows-Theme-Autochanger
+Project Link: [https://github.com/AMDphreak/Windows-Theme-Autochanger](https://github.com/AMDphreak/Windows-Theme-Autochanger)
 
-Site: https://ryanjohnson.dev
+Site: [https://ryanjohnson.dev](https://ryanjohnson.dev)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/AMDphreak/Windows-Theme-Autochanger.svg?style=for-the-badge
-[contributors-url]: https://github.com/AMDphreak/Windows-Theme-Autochanger/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/AMDphreak/Windows-Theme-Autochanger.svg?style=for-the-badge
-[forks-url]: https://github.com/AMDphreak/Windows-Theme-Autochanger/network/members
-[stars-shield]: https://img.shields.io/github/stars/AMDphreak/Windows-Theme-Autochanger.svg?style=for-the-badge
-[stars-url]: https://github.com/AMDphreak/Windows-Theme-Autochanger/stargazers
-[issues-shield]: https://img.shields.io/github/issues/AMDphreak/Windows-Theme-Autochanger.svg?style=for-the-badge
-[issues-url]: https://github.com/AMDphreak/Windows-Theme-Autochanger/issues
+[Go.dev]: https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white
+[Go-url]: https://go.dev/
