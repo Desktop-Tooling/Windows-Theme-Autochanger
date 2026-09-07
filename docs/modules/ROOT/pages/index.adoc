@@ -1,0 +1,33 @@
+= Windows Theme Autochanger
+:description: Windows service and tray app that switches light and dark themes on a schedule.
+:page-audience: Windows users who want scheduled light and dark themes
+:page-usage-context: Product overview and build entry point
+:page-orig-author: Ryan Johnson
+:page-last-author: Cursor agent on behalf of Ryan Johnson
+:page-last-edited: 2026-09-07
+
+ifndef::page-context-active[]
+[.page-context.page-context-lead]
+****
+Audience:: {page-audience}
+****
+endif::[]
+
+Windows Theme Autochanger switches between configured light and dark Windows themes according to a day-and-night schedule. It runs in the background as a service and exposes controls through a system-tray app.
+
+The configuration can switch complete themes or limit changes to window control colors without changing the desktop background.
+
+== Build
+
+The application is written in Go. Clone the repository on Windows and run `go build ./...` to build the service and tray application from source.
+
+The repository also retains earlier Writerside notes for roadmap, developer, and installer work.
+
+ifndef::page-context-active[]
+[.page-context.page-context-footer]
+****
+Original author:: {page-orig-author}
+Latest contributor:: {page-last-author}
+Last updated:: {page-last-edited}
+****
+endif::[]

@@ -10,6 +10,9 @@
     Dark mode auto-changer for Windows 11 at night — switch between Light and Dark themes on a schedule.
     <br />
     <br />
+    <a href="https://desktop-tooling.github.io/docs/windows-theme-autochanger/"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
     <a href="https://github.com/AMDphreak/Windows-Theme-Autochanger/issues">Report Bug</a>
     &middot;
     <a href="https://github.com/AMDphreak/Windows-Theme-Autochanger/issues">Request Feature</a>
@@ -77,6 +80,10 @@ Contributions, issues, and feature requests are welcome. Open an issue or pull r
 For per-person profile links, prefer [all-contributors](https://allcontributors.org/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for the project history.
 
 ## Contact
 
